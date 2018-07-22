@@ -12,6 +12,12 @@ The lab is organized in 3 parts
 
 Navigate in source code hello/main.go
 
+The web service just print a welcome message in the server logs (DEBUG mode) .
+The same message is returned to the caller in INFO
+
+![main.go ](https://github.com/nelvadas/kubernetes101/blob/master/step3/maingoclass.png "helloservice ")
+
+
 
 ```
 step1$ go build hello/main.go
