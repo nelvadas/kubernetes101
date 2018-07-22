@@ -1,5 +1,11 @@
 # From Monolith to Cloud Native Applications with Docker and Kubernetes  101
 
+The purpose of this lab, is to quickly show how to  migrate a monolith back end service to Kubernetes.
+The lab is organized in 3 parts
+* the first part show the legacy hellok8s service in Go
+* the second part shows how to containerize the service using docker
+* the last part focuses on running the service on a minukube cluster.
+
 
 
 ## STEP 1:  Monolith helloword service
