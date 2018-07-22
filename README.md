@@ -294,7 +294,7 @@ Send 5 requests
 $ ab -n 5 -v 1 http://192.168.99.100:31421/
 ```
 
-![Loadbalancing ](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "kubectl logs -f ")
+![Loadbalancing ](https://github.com/nelvadas/kubernetes101/blob/master/step3/loadbalancing.png "kubectl logs -f ")
 
 
 we have so far used the kubectl command, it is time to see how the minikube console looks like.
@@ -303,4 +303,4 @@ we have so far used the kubectl command, it is time to see how the minikube cons
 $ minikube dashboad
 ```
 
-![Dashboard ](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "minikube console")
+![Dashboard ](https://github.com/nelvadas/kubernetes101/blob/master/step3/minikubedashboard.png "minikube console")
